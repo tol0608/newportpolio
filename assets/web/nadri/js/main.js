@@ -11,28 +11,21 @@ $(function () {
         cssEase: 'linear',
         arrows: false,
     });
-    $(".sec2_img").slick({
-        arrows:false,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        asNavFor: '.slider-for, .slide_txt'
-       // variableWidth: true
-    });
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.slide_txt, .sec2_img'
+        asNavFor: '.slide_txt'
     });
     $('.slide_txt').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.sec2_img, .slider-for'
+        infinite:true,
+        autoplay:true,
+        asNavFor: '.slider-for'
     });
     $(".sec3_insta").slick({
         infinite: true,
