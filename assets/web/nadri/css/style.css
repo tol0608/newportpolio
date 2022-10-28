@@ -800,6 +800,7 @@ h1 {
 
 #footer .footer_sns a:hover {
     filter: brightness(0) saturate(100%) invert(74%) sepia(87%) saturate(2400%) hue-rotate(331deg) brightness(92%) contrast(95%);
+    /* filter: invert(53%) sepia(56%) saturate(567%) hue-rotate(77deg) brightness(98%) contrast(88%); 초록색*/
 }
 
 @media all and (max-width:1180px) {
