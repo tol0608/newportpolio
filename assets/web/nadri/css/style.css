@@ -400,6 +400,7 @@ h1 {
     outline: 0;
     padding: 4px 20px 0;
     width: 100%;
+    text-align: center;
 }
 
 .cut {
