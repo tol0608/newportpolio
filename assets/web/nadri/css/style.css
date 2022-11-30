@@ -413,9 +413,9 @@ h1 {
     background-color: #c9dd72;
     border-radius: 10px;
     height: 20px;
+    top: -20px;
     left: 20px;
     position: absolute;
-    top: -20px;
     transform: translateY(0);
     transition: transform 200ms;
     width: 76px;
@@ -566,15 +566,6 @@ h1 {
     font-weight: 500;
     margin-bottom: 20px;
 }
-
-/* #sec3 .img {
-    position: relative;
-} */
-
-/* #sec3 .slick-slide {
-    width: 350px;
-    height: 600px;
-} */
 
 #sec3 .slick-arrow {
     position: absolute;
